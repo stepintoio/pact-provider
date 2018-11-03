@@ -1,0 +1,23 @@
+{
+  "name": "pact-provider",
+  "version": "1.0.0",
+  "description": "Provider-side demo for consumer-driven contract testing",
+  "main": "index.js",
+  "scripts": {
+    "pact": "mocha test/provider.spec.js",
+    "unit": "mocha test/student.service.spec.js",
+    "start": "node index.js"
+  },
+  "author": "Adam Fitzpatrick",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@pact-foundation/pact": "^7.0.2",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.2.0"
+  }
+}
